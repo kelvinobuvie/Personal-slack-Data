@@ -6,4 +6,4 @@ const date = new Date();
 dayNameEl.innerText = date.toLocaleDateString("en", {
     weekday: "long"
 })
-UTCTime.innerHTML = date.getMilliseconds();
+UTCTime.innerHTML = date.getTime();
